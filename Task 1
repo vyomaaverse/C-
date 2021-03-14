@@ -1,0 +1,48 @@
+//Level1
+
+
+//Question 1
+#include <iostream>
+int main(){
+  using namespace std;
+  cout << "*" << endl << "**" << endl << "***" endl << "****" << endl;
+  return 0;
+}
+
+//Question 2
+#include <iostream>
+int main(){
+  using namespace std;
+  int x = 1;
+  cout << x << endl;
+  return 0;
+}
+
+//Question 3
+#include <iostream>
+int main(){
+  using namespace std;
+  int x;
+  cin >> x;
+  cout << x << endl;
+  return 0;
+}
+
+
+//Question 4
+#include <iostream>
+int main(){
+  using namespace std;
+  cout << "****" << endl << " ** " << endl << "  * "<< endl << " ** "<< endl <<  "****"<< endl ;
+  return 0;
+}
+
+//Question 5
+#include <iostream>
+int main(){
+  using namespace std;
+  cout << "Hello" << endl << "CodesDope" << endl;
+  return 0;
+}
+  
+  
