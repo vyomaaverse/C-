@@ -1,0 +1,28 @@
+//Question 1
+//Take value of length and breadth of a rectangle from user as float. Find its area and print it on screen after type casting it to int.
+
+#include <iostream>
+int main(){
+  using namespace std;
+  float length, breadth;
+  cout << "Enter length of the rectangle\n";
+  cin >> length;
+  cout << "Enter breadth of the rectangle\n";
+  cin >> breadth;
+  cout << "Area of rectangle is " << static_cast<int>(length*breadth);
+  return 0;
+}
+
+
+//Question 2
+//Take a char input from user and print it's ASCII value.
+
+#include <iostream>
+int main(){
+    using namespace std;
+    char character;
+    cout << "Enter a character: ";
+    cin >> character;
+    cout << "The character entered by you is: " << character << " - ASCII value of this character is: " << static_cast<int>(character);
+    return 0;
+}
