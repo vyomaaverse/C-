@@ -1,0 +1,46 @@
+/*If
+x = 2
+y = 5
+z = 0
+then find values of the following expressions:
+a. x == 2
+b. x != 5
+c. x != 5 && y >= 5
+d. z != 0 || x == 2
+e. !(y < 10) */
+
+#include <iostream>
+using namespace std;
+int main(){
+  int x = 2, y = 5, z = 0;
+  cout<<"value of (x==2) is "<< (x==2)<< endl;                          //value is 1
+  cout<<"value of (x != 5) is "<< (x != 5)<< endl;                      //value is 1
+  cout<<"value of (x != 5 && y >= 5) is "<< (x != 5 && y >= 5)<< endl;  //value is 1
+  cout<<"value of (z != 0 || x == 2) is "<< (z != 0 || x == 2)<< endl;  //value is 1
+  cout<<"value of (!(y < 10)) is "<< (!(y < 10))<< endl;                //value is 0
+  return 0;
+}
+
+
+
+//Write a program to check whether an entered character is lowercase ( a to z ) or uppercase ( A to Z ).
+
+#include <iostream>
+using namespace std;
+int main(){
+  char ch;
+  cout<<"Enter a character"<<endl;
+  cin >> ch;
+  if (ch >= 'A' && ch <= 'Z') 
+        cout<< ch << " is an uppercase character"<<endl; 
+  
+    else if (ch >= 'a' && ch <= 'z') 
+    cout<< ch << " is an lowercase character"<<endl; 
+              
+  
+    else
+        cout<< ch << " is not an aplhabetic character"<<endl; 
+    return 0;
+}
+              
+  
