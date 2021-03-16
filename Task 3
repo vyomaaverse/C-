@@ -1,0 +1,28 @@
+//If the marks of Robert in three subjects are 78,45 and 62 respectively (each out of 100 ), write a program to calculate his total marks and percentage marks.
+
+#include <iostream>
+using namespace std;
+int main(){
+  int sub1, sub2, sub3, total;
+  float percentage;
+  sub1= 78;
+  sub2= 45;
+  sub3= 62;
+  total= sub1 + sub2 + sub3;
+  percentage= total/3.0;
+  cout<< "Total= "<< total << endl << "Percentage= "<< percentage << endl;
+  return 0;
+}
+
+//Write a program to convert Fahrenheit into Celsius.
+
+#include <iostream>
+using namespace std;
+int main(){
+  float cels, fahr;
+  cout<<"Enter the temperature in Fahrenheit"<<endl;
+  cin>> fahr;
+  cels= (fahr - 32) * 5/9;
+  cout<< "The temperature in Celsius is "<< cels<< endl;
+  return 0;
+}
