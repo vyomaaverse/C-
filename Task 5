@@ -1,0 +1,35 @@
+//Take integer inputs from user until he/she presses q ( Ask to press q to quit after every integer input ). Print average and product of all numbers.
+
+#include <iostream>
+using namespace std;
+int main(){
+    int n, sum, average, count = 0, product = 1; 
+
+    while (cin != 'q')
+    {
+	    cout << "Enter a number: " << endl; 
+	    cin >> n; 
+	    sum += n; 
+      product *= n;
+	    count++; 
+    }
+    average = sum / count; 
+    cout << "Sum: " << sum << endl; 
+    cout << "Average: " << average << endl; 
+    cout << "Product: " << product << endl; 
+
+    return 0; 
+ }
+
+
+//Write an infinite loop.
+//A inifinte loop never ends. Condition is always true.
+
+#include <iostream>
+using namespace std;
+int main(){
+   for(int i=1; i>=1; i++){
+      cout << i << endl;
+   }
+   return 0;
+}
